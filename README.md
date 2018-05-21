@@ -1,4 +1,4 @@
-#CSS Playground
+# CSS Playground
 
 This project contains all my React components on which I was training my **_CSS3_** skills.
 
