@@ -8,10 +8,12 @@ All components will be available to see on [this website].
 
 **What can be more interesting than some screenshots? Take a look!**
 -----
-_[Simple Axe]_ - 2D drawing of axe. Weapon consists of two div elements wrapped in parent div to allow animation of whole weapon.
+
+_[Simple Axe]_ - 2D drawing of axe. Weapon consists of two div elements wrapped in parent div to allow animation of whole weapon.<br/>
 ![Pure CSS 2D Axe](http://projects.bborawski.pl/css-playground/static/media/axe.jpg)
 -----
-_[Rubik's Cube]_ - 3D drawing of Rubik's Cube. Added rotating animation to show every side of the cube.
+
+_[Rubik's Cube]_ - 3D drawing of Rubik's Cube. Added rotating animation to show every side of the cube.<br/>
 ![Pure CSS 3D Rubik's Cube](http://projects.bborawski.pl/css-playground/static/media/rubik.jpg)
 -----
 
