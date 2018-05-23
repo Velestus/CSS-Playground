@@ -4,9 +4,10 @@
 
 This file contains extended explanation of creating this Axe with pure CSS code. I have watched [Make CSS Your Secret Super Drawing Tool] on YouTube and I really recommend to do so before going deeper.
 
-At the end of these instructions you should have something similar to this:
-![Pure CSS 2D Axe](http://projects.bborawski.pl/css-playground/static/media/axe.jpg)
+At the end of these instructions you should have something similar to this:<br/>
 
+![Pure CSS 2D Axe](http://projects.bborawski.pl/css-playground/static/media/axe.jpg)
+<br/>
 OK, let's get started!
 
 ### HTML
@@ -47,8 +48,8 @@ box-shadow:
   160px 0 0 0 currentColor,
   240px 0 0 0 currentColor;
 ```
-I am using keyword **currentColor**. This copies values of current **color** from element. In our example, it will be darker grey.
-![Pure CSS 2D Axe Blade basis](http://projects.bborawski.pl/css-playground/static/media/axe/axe-01.jpg)
+I am using keyword **currentColor**. This copies values of current **color** from element. In our example, it will be darker grey.<br/>
+![Pure CSS 2D Axe Blade basis](http://projects.bborawski.pl/css-playground/static/media/axe/axe-01.jpg)<br/>
 As we have two circles, let's give them better look of the Axe!
 To achieve that, we will use _before_ and _after_ pseudo classes. Those will allow us to hide some part of our blade.
 ```css
@@ -81,8 +82,8 @@ Whoo! A lot of code in here. But let me explain this, because it's not that hard
 - First, if we want our pseudo class element to appear within our design, we have to add to it `content` property. Absolute positioning allows easy reposition of those fields.
 - We are adding borders to our pseudo elements, one from bottom and one from top. This border will be used as cover for our blade.
 - Border radius goes clockwise: top-left, top-right, bottom-right, bottom-left. We give 50% to corners headed towards our blade, so we will be able to cover it and give it desired shape.
-- Proper reposition of those elements and here we go! We have something more similar to blade. 
-![Pure CSS 2D Axe Blade shape](http://projects.bborawski.pl/css-playground/static/media/axe/axe-02.jpg)
+- Proper reposition of those elements and here we go! We have something more similar to blade.<br/> 
+![Pure CSS 2D Axe Blade shape](http://projects.bborawski.pl/css-playground/static/media/axe/axe-02.jpg)<br/>
 
 But what about edge? Let's create this!
 For that we have to update Axe-blade class (box-shadow to be more specific):
@@ -100,7 +101,8 @@ For that we have to update Axe-blade class (box-shadow to be more specific):
     250px 0 0 0 #d8d8d8;
 }
 ```
-![Pure CSS 2D Axe Blade edge](http://projects.bborawski.pl/css-playground/static/media/axe/axe-03.jpg)
+
+![Pure CSS 2D Axe Blade edge](http://projects.bborawski.pl/css-playground/static/media/axe/axe-03.jpg)<br/>
 And here we go, we got beautiful blade. We can head to another part.
 
 ### CSS - grip
@@ -117,7 +119,8 @@ We've got a blade, but we need something to be able to hold this weapon and swin
     250px -100px 0 0 currentColor;
 }
 ```
-![Pure CSS 2D Axe Grip basis](http://projects.bborawski.pl/css-playground/static/media/axe/axe-04.jpg)
+
+![Pure CSS 2D Axe Grip basis](http://projects.bborawski.pl/css-playground/static/media/axe/axe-04.jpg)<br/>
 I have rounded corners, because I wanted to add some gems here for better styling. As you can see, we need to decorate our Axe! And here we will also use pseudo elements:
 ```css
 .Axe-grip::after {
@@ -133,7 +136,8 @@ I have rounded corners, because I wanted to add some gems here for better stylin
     246px -120px 0 0 currentColor;
 }
 ```
-![Pure CSS 2D Axe Grip gems](http://projects.bborawski.pl/css-playground/static/media/axe/axe-05.jpg)
+
+![Pure CSS 2D Axe Grip gems](http://projects.bborawski.pl/css-playground/static/media/axe/axe-05.jpg)<br/>
 Now it looks better. But it can be improved even more!
 Let's add some golden stylings to the grip. For that we will use another pseudo element:
 ```css
@@ -152,8 +156,9 @@ Let's add some golden stylings to the grip. For that we will use another pseudo 
     247px 140px 0 0 currentColor;
 }
 ```
-Here we need to add z-index, as by default _before_ pseudo element hides beneath our grip. 
-![Pure CSS 2D Axe Grip decorations](http://projects.bborawski.pl/css-playground/static/media/axe/axe-06.jpg)
+Here we need to add z-index, as by default _before_ pseudo element hides beneath our grip.
+
+![Pure CSS 2D Axe Grip decorations](http://projects.bborawski.pl/css-playground/static/media/axe/axe-06.jpg)<br/>
 After this change we have nicely styled Axe!
 
 And here we are, we have created our very simple Axe with pure CSS. But wait, there's more!
