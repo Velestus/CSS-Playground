@@ -2,6 +2,7 @@
   color: transparent;
   background-color: currentColor;
   margin-left: -400px;
+  margin-top: 20px;
   transform-origin: 250px 200px;
   animation: Axe-spin infinite 4s linear;
 }
