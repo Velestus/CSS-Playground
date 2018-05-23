@@ -40,7 +40,7 @@ Let's define basis of our blade:
   color: #bdbdbd;
 }
 ```
-That's right - our blade is simple circle. But nothing is showing up yet! That's bcause we didn't declare `background-color` for our `<div>`. And we don't need to!
+That's right - our blade is simple circle. But nothing is showing up yet! That's because we didn't declare `background-color` for our `<div>`. And we don't need to!
 
 Our axe is going to be double-bladed. Let's create two shadows, by adding box-shadow property to our Axe-blade class:
 ```css
@@ -48,7 +48,7 @@ box-shadow:
   160px 0 0 0 currentColor,
   240px 0 0 0 currentColor;
 ```
-I am using keyword **currentColor**. This copies values of current **color** from element. In our example, it will be darker grey.<br/>
+I am using keyword **currentColor**. This copies value of current **color** from element. In our example, it will be darker grey.<br/>
 ![Pure CSS 2D Axe Blade basis](http://projects.bborawski.pl/css-playground/static/media/axe/axe-01.jpg)<br/>
 As we have two circles, let's give them better look of the Axe!
 To achieve that, we will use _before_ and _after_ pseudo classes. Those will allow us to hide some part of our blade.
@@ -171,11 +171,11 @@ Try to add some shadows by yourself. I have added those shadows in my design, ta
 Little tips:
 - our pseudo elements for blade are quite big, and we need to cover extra shadow;
 - try to give some shinyness for gems, use lighter color;
-- don't forget to add shadow's to golden stylings aswell.
+- don't forget to add shadows to golden stylings aswell.
 
 ### Conclusion
 
-CSS is all about thinking in rectangles. As you can see, this Axe isn't that hard as it may seem at first glance. 
+CSS is all about thinking in rectangles, but those rectangles can be rounded aswell. As you can see, this Axe isn't that hard as it may seem at first glance. 
 
 I hope you enjoyed this article, and maybe you will try to do something by yourself!
 Good luck!
