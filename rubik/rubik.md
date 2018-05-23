@@ -197,11 +197,11 @@ Let's give our Rubik's Cube some life. We will apply **animation** to it:
   to { transform: rotateX(360deg) rotateY(360deg); }
 }
 ```
->You spin me right round, baby
->Right round like a record, baby
->Right round round round 
+>You spin me right round, baby<br/>
+>Right round like a record, baby<br/>
+>Right round round round<br/>
 
-It's alive! 
+It's alive! <br/>
 We used `margin` property to keep our cube near the center.
 
 ### Conclusion
